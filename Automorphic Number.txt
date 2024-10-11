@@ -1,0 +1,10 @@
+n=int(input())
+sq=n*n
+a=0
+r1=sq%10
+r2=sq%100
+r3=sq%1000
+if(r1==n or r2==n or r3==n):
+    print("Automorphic Number")
+else:
+    print("Not an Automorphic Number")
